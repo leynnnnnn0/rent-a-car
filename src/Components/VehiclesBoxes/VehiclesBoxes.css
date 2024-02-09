@@ -1,0 +1,29 @@
+.boxes {
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+
+.vehicle-image img {
+    width: 264px;
+    height: 200px;
+}
+
+.about-vehicle {
+    display: flex;
+    flex-direction: column;
+}
+
+.vehicles-list {
+    display: flex;
+}
+
+.exit-button {
+    color: white;
+    
+}

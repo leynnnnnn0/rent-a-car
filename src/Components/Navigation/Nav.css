@@ -1,0 +1,35 @@
+.navigation-bar {
+    height: 15vh;
+    padding: var(--padding-sides);
+    background: black;
+
+}
+
+.navigation-bar img {
+    width: 70px;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: var(--font-color);
+    margin: 1rem;
+    transition:  ease 0.5s;
+}
+
+.navigation-bar a:hover {
+    color: var(--secondary-color);
+    transform: scale(1.1);
+}
+
+.be-a-member button{
+    background: none;
+    border: 1px solid white;
+    padding: 0.4rem 2rem;
+    color: var(--font-color);
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.navigation-bar button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,62 @@
+.reservation-form {
+    height: 250px;
+    width: 650px;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: var(--font-color);
+    position: relative;
+}
+
+.pick-up-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.reservation-form span {
+    font-size: 0.7rem;
+}
+
+.reservation-form input {
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-indent: 0.5rem;
+}
+
+.pick-up-container input {    
+    width: 550px;
+}
+
+.time-info {
+    display: flex;
+    gap: 2rem;
+}
+
+
+#pick-up-date, #return-date {
+    border-radius: 10px 0 0 10px;
+    width: 130px;
+}
+
+#pick-up-time, #return-time {
+    border-radius: 0 10px 10px 0;
+    width: 130px;
+}
+
+.show-cars button {
+    position: absolute;
+    right: 4rem;
+    bottom: 1rem;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 0 1.5rem;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.show-cars button:hover {
+    transform: scale(1.1);
+}
